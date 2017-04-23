@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Evaluación Final HTML</title>
+  </head>
+  <body>
+
+    <header>
+      <svg style="border: 2px solid black;width:80px;height:100px;viewBox:0 0 80 100">
+        <image xlink:href="../img/JC.svg" width="600px" height="600px" x="0" y="0"/></image>
+      </svg>
+      <h1>Curriculum Vitae</h1>
+        <h2>Javier Carreño</h2>
+          <h3>Bogotá DC 26/07/1992</h3>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../html/educacion.html">Educación</a></li>
+        <li><a href="../html/experiencia.html">Experiencia</a></li>
+      </ul>
+    </nav>
+
+    <section>
+      <article>
+        <h2>Educación</h2>
+        <table border="1" cellpadding="10" cellspacing="0">
+          <thead>
+            <tr>
+              <th>Año</th>
+              <th>Institución</th>
+              <th>Lugar</th>
+              <th>¿Culminó?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2015</td>
+              <td>Bucor</td>
+              <td>Córdoba</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>2016</td>
+              <td>Celsius</td>
+              <td>Córdoba</td>
+              <td>Si</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+
+      <br/>
+
+      <article>
+        <form>
+          <legend><h2>Agregar Estudios</h2></legend>
+            <p>
+              <label for="Año">Año</label>
+                <select>
+                  <option>2017</option>
+                  <option>2016</option>
+                  <option>2015</option>
+                  <option>2014</option>
+                  <option>2013</option>
+                  <option>2012</option>
+                  <option>2011</option>
+                  <option>2010</option>
+                  <option>2009</option>
+                  <option>2008</option>
+                  <option>2007</option>
+                </select>
+            </p>
+            <p>
+              <label for="Institucion">Institución:</label>
+              <input type="text" id="Institucion" name="Institucion" required>
+            </p>
+            <p>
+              <label for="Lugar">Lugar:</label>
+              <textarea id="Lugar" name="Lugar" rows="8" cols="40"></textarea>
+            </p>
+            <p>
+              <label for="Culmino">¿Culminó?</label>
+              <input type="radio" name="Culmino">Si
+              <input type="radio" name="Culmino">No
+            </p>
+            <p>
+              <input type="submit" value="Enviar">
+            </p>
+        </form>
+      </article>
+    </section>
+
+    <footer>
+      <p>@Derechos reservados.</p>
+        <ul>
+          <li>
+            <strong>Email:</strong>
+            <a href="mailto:ljavier.cm@hotmail.com">ljavier.cm@hotmail.com</a>
+          </li>
+          <li>
+            <strong>Teléfono:</strong>
+            011-123-123-123
+          </li>
+          <li>
+            <strong>Dirección:</strong>
+            Av. las Heras Nº 123, Bº Libertador. Buenos Aires, Argentina.
+          </li>
+        </ul>
+    </footer>
+
+  </body>
+</html>
